@@ -87,6 +87,8 @@
 
 .sidebar__compose span {
     margin-right: 5px;
+    color: #818181;
+
 }
 
 .sidebarOption {
@@ -265,3 +267,28 @@ body {
     font-weight: 400;
     color: grey;
 }
+
+.button1 {
+    border: none;
+    background-color: transparent;
+}
+button1:focus {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.button2 {
+    border: none;
+}
+button2:focus {
+    border: none;
+    outline: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
